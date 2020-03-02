@@ -4,4 +4,4 @@
 以及設置圖片管道將直播預覽圖抓取到Images資料夾中。
 
 技術點:
-Scrapy框架、設置
+Scrapy框架、設置ImagesPipeline
