@@ -5,8 +5,3 @@ class DouyuImagePipeline(ImagesPipeline):
 	def get_media_requests(self,item,info):
 		imageLink = item['imagLink']
 		yield scrapy.Request(imageLink)
-
-
-class DouyuPipeline(object):
-    def process_item(self, item, spider):
-        return item
